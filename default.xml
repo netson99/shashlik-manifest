@@ -19,14 +19,8 @@
   <project path="shashlik"
            name="darkenk/shashlik" />
 
-  <project path="android-binder-ipc"
-           name="darkenk/android-binder-ipc" />
-
   <project path="android-core"
            name="darkenk/android-core" />
-
-  <project path="art"
-           name="darkenk/android_art" />
 
   <project path="android-libnativehelper"
            name="darkenk/android-libnativehelper" />
