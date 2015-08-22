@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- remotes -->
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+  <remote  name="github-git"
+           fetch="git://github.com" />
+  <remote  name="github-https"
+           fetch="https://github.com" />
+  <remote  name="github-http"
+           fetch="http://github.com" />
+
+<!-- defaults -->
+  <default revision="shashlik-5.1.1_r9"
+           remote="github-ssh" />
+
+<!-- projects -->
+  <project path="shashlik"
+           name="darkenk/shashlik" />
+
+  <project path="android-binder-ipc"
+           name="darkenk/android-binder-ipc" />
+
+  <project path="android-core"
+           name="darkenk/android-core" />
+
+  <project path="art"
+           name="darkenk/android_art" />
+
+  <project path="android-libnativehelper"
+           name="darkenk/android-libnativehelper" />
+
+</manifest>
+
