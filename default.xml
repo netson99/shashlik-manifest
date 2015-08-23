@@ -25,5 +25,11 @@
   <project path="android-libnativehelper"
            name="darkenk/android-libnativehelper" />
 
+  <project path="shashlik/src/deps/art"
+           name="darkenk/android_art" />
+
+  <project path="shashlik/src/deps/external/vixl"
+           name="darkenk/vixl" />
+
 </manifest>
 
