@@ -2,43 +2,20 @@
 <manifest>
 
 <!-- remotes -->
-  <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
-  <remote  name="github-git"
-           fetch="git://github.com" />
-  <remote  name="github-https"
-           fetch="https://github.com" />
-  <remote  name="github-http"
-           fetch="http://github.com" />
+    <remote  name="origin" fetch="./" />
 
 <!-- defaults -->
-  <default revision="shashlik-5.1.1_r9"
-           remote="github-ssh" />
+    <default revision="shashlik-5.1.1_r9" remote="origin" />
 
 <!-- projects -->
-  <project path="shashlik"
-           name="darkenk/shashlik" />
-
-  <project path="android-core"
-           name="darkenk/android-core" />
-
-  <project path="android-libnativehelper"
-           name="darkenk/android-libnativehelper" />
-
-  <project path="android-frameworks-native"
-           name="darkenk/android-frameworks-native" />
-
-  <project path="shashlik/src/deps/art"
-           name="darkenk/android_art" />
-
-  <project path="shashlik/src/deps/external/vixl"
-           name="darkenk/vixl" />
-
-  <project path="shashlik/src/deps/dalvik"
-           name="darkenk/platform_dalvik" />
-
-  <project path="shashlik/src/deps/libcore"
-           name="darkenk/android-libcore" />
+    <project path="shashlik"  name="shashlik" />
+    <project path="android-core" name="android-core" />
+    <project path="android-libnativehelper" name="android-libnativehelper" />
+    <project path="android-frameworks-native" name="android-frameworks-native" />
+    <project path="shashlik/src/deps/art" name="android_art" />
+    <project path="shashlik/src/deps/external/vixl" name="vixl" />
+    <project path="shashlik/src/deps/dalvik" name="platform_dalvik" />
+    <project path="shashlik/src/deps/libcore" name="android-libcore" />
 
 </manifest>
 
