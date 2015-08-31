@@ -9,7 +9,7 @@
 
 <!-- projects -->
     <project path="shashlik"  name="shashlik" />
-    <project path="android-core" name="android-core" />
+    <project path="shashlik/src/deps/system/core" name="android-core" />
     <project path="android-libnativehelper" name="android-libnativehelper" />
     <project path="shashlik/src/deps/frameworks/native" name="android-frameworks-native" />
     <project path="shashlik/src/deps/art" name="android_art" />
