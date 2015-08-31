@@ -11,7 +11,7 @@
     <project path="shashlik"  name="shashlik" />
     <project path="android-core" name="android-core" />
     <project path="android-libnativehelper" name="android-libnativehelper" />
-    <project path="android-frameworks-native" name="android-frameworks-native" />
+    <project path="shashlik/src/deps/frameworks/native" name="android-frameworks-native" />
     <project path="shashlik/src/deps/art" name="android_art" />
     <project path="shashlik/src/deps/external/vixl" name="vixl" />
     <project path="shashlik/src/deps/dalvik" name="platform_dalvik" />
