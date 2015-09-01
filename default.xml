@@ -16,6 +16,7 @@
     <project path="shashlik/src/deps/external/vixl" name="vixl" />
     <project path="shashlik/src/deps/dalvik" name="platform_dalvik" />
     <project path="shashlik/src/deps/libcore" name="android-libcore" />
+    <project path="shashlik/src/deps/hardware/libhardware" name="platform_hardware_libhardware" />
 
 </manifest>
 
