@@ -2,7 +2,8 @@
 <manifest>
 
 <!-- remotes -->
-    <remote  name="origin" fetch="./" />
+    <remote name="origin" fetch="./" />
+    <remote name="gtest" fetch="https://github.com/svn2github/" />
 
 <!-- defaults -->
     <default revision="shashlik-5.1.1_r9" remote="origin" />
@@ -17,6 +18,8 @@
     <project path="shashlik/src/deps/dalvik" name="platform_dalvik" />
     <project path="shashlik/src/deps/libcore" name="android-libcore" />
     <project path="shashlik/src/deps/hardware/libhardware" name="platform_hardware_libhardware" />
+    <project path="shashlik/src/deps/hardware/drm_gralloc" name="drm_gralloc" revision="lollipop-x86" />
+    <project path="shashlik/src/deps/external/gtest" name="googletest" revision="master" remote="gtest" />
 
 </manifest>
 
