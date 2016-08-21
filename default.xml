@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- remotes -->
-    <remote name="origin" fetch="./" />
+    <remote name="origin" fetch="https://github.com/darkenk" />
     <remote name="gtest" fetch="https://github.com/svn2github/" />
 
 <!-- defaults -->
